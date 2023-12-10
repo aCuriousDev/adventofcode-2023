@@ -29,7 +29,7 @@ def get_int(line: str) -> int:
     return int(''.join(words))
 
 
-with open('../input', 'r') as f:
+with open('./input', 'r') as f:
     total_sum = sum(get_int(line) for line in f.readlines())
 
 print(f"Total sum of calibration values: {total_sum}")
