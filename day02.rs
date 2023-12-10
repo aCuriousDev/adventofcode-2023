@@ -38,7 +38,7 @@ fn is_game_possible(reveals: &Vec<HashMap<String, i32>>, max_cubes: &HashMap<Str
 }
 
 fn main() -> io::Result<()> {
-    let path = Path::new("input.txt"); // Adjust the path as needed
+    let path = Path::new("input.txt");
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
 

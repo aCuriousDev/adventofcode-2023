@@ -36,7 +36,5 @@ def main(input_file):
 
     return possible_games_sum
 
-
-# Example usage
 input_file = 'input.txt'
 print(main(input_file))
